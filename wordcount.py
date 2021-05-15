@@ -7,10 +7,10 @@ def wordCount( countstr ):
     numWords = len(countstr.split())
     return numWords
 
-countstr = input()
+#countstr = input()
 
-print("numWords:", wordCount(countstr))
+#print("numWords:", wordCount(countstr))
 
-countstr = input()
+#countstr = input()
 
-print("numWords:", wordCount(countstr))
+#print("numWords:", wordCount(countstr))
