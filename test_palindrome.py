@@ -6,7 +6,7 @@ class testCaseAdd(unittest.TestCase):
         self.assertEqual(palindrome.isPalindrome("bambmab"), True)
 
     def test_fooffoof(self):
-        self.assertEqual(palindrome.isPalindrome("bambmab"), True)
+        self.assertEqual(palindrome.isPalindrome("baMbmaB"), True)
 
     def test_greentea(self):
         self.assertEqual(palindrome.isPalindrome("greentea"), False)
